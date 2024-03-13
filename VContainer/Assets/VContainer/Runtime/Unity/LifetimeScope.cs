@@ -38,7 +38,7 @@ namespace VContainer.Unity
                 }
             }
 
-            void IDisposable.Dispose()
+            public void IDisposable.Dispose()
             {
                 lock (SyncRoot)
                 {
